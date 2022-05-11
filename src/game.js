@@ -9,4 +9,9 @@ const model = new Model();
 
 model.init();
 drawGame(model);
-controller(model);
+// controller(model);
+
+
+document.getElementById("start").addEventListener("click", () => controller(model));
+document.getElementById("stop").addEventListener("click", model.stop);
+document.getElementById("reset").addEventListener("click", model.reset);

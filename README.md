@@ -8,6 +8,8 @@ Nom/Prénom: `AHMED KHAN Somir, COUPPIE Louis`
 
 Lien du codesandbox: `https://codesandbox.io/s/youthful-buck-hygj44?file=/index.html`
 
+> PS: Pour créer ce lien codesandbox, nous avons dû passer le repository en public car la version gratuite de codesandbox ne permet pas créer de sandbox à partir de repository privé.
+
 > Pour générer un codesandbox associé à votre code, [suivre cette doc](https://codesandbox.io/docs/importing#import-from-github).
 
 Vous pouvez tester le code directement sur votre navigateur, à condition de lancer un serveur local. Par exemple :

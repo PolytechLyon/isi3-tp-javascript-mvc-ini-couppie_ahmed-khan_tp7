@@ -1,18 +1,18 @@
 export class Controller {
   constructor(m) {
     this.model = m;
-    this.startModel();
+    this.model.run();
   }
   
-  startModel = () => {
+  startModel() {
     this.model.run();
   };
   
-  stopModel = () => {
+  stopModel() {
     this.model.stop();
   };
   
-  resetModel = () => {
+  resetModel() {
     this.model.reset();
   };
 };

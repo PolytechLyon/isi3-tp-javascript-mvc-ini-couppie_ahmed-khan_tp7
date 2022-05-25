@@ -4,7 +4,7 @@ import {
   DEFAULT_ALIVE_PAIRS,
   RENDER_INTERVAL
 } from "./constants.js";
-import { drawGame } from "./view.js";
+import { notifyView } from "./view.js";
 
 export class Model {
   constructor() {
@@ -54,14 +54,12 @@ export class Model {
   }
 
   stop() {
-    console.log("stop");
     cancelAnimationFrame(this.raf);
     this.raf = null;
   }
   
   reset() {
     // TODO
-    console.log("reset");
     this.stop();
     this.init();
   }
@@ -111,6 +109,6 @@ export class Model {
 
   updated() {
     // TODO update the view
-    drawGame(this);
+    notifyView(this);
   }
 }

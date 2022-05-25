@@ -21,3 +21,7 @@ export const drawGame = model => {
     });
   });
 };
+
+export const notifyView = model => {
+  drawGame(model); 
+};
